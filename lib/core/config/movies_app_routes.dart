@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'package:movies_app/presentation/login/screens/login_screen.dart';
-import 'package:movies_app/presentation/movie_details/screens/movie_details_screen.dart';
-import 'package:movies_app/presentation/nav/screens/nav_screen.dart';
-import 'package:movies_app/presentation/signup/screens/signup_screen.dart';
-import 'package:movies_app/presentation/splash/screens/splash_screen.dart';
+import '../../presentation/login/screens/login_screen.dart';
+import '../../presentation/movie_details/screens/movie_details_screen.dart';
+import '../../presentation/nav/screens/nav_screen.dart';
+import '../../presentation/signup/screens/signup_screen.dart';
+import '../../presentation/splash/screens/splash_screen.dart';
 
 class MoviesAppRoutes {
   static final MoviesAppRoutes _singleton = MoviesAppRoutes._internal();

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movies_app/core/config/movies_app_colors.dart';
+
+import 'movies_app_colors.dart';
 
 class MoviesAppMaterial {
   static final MoviesAppMaterial _singleton = MoviesAppMaterial._internal();
