@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877393898981",
+    "project_id": "lemoviesapp",
+    "storage_bucket": "lemoviesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877393898981:android:e9d1abba6c15cd1f6b530c",
+        "android_client_info": {
+          "package_name": "com.example.movies_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9c_TWh2vnllvC4jV5kYTAmDW-E81z3DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
