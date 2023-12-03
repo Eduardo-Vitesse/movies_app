@@ -11,12 +11,12 @@ class TextWidget extends StatelessWidget {
   final TextOverflow? overflow;
 
   const TextWidget({
+    super.key,
     required this.text,
     required this.style,
     this.textAlign,
     this.color,
     this.overflow,
-    super.key,
   });
 
   TextWidget.bold(
