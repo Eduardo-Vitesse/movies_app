@@ -1,15 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-class FirebaseAuthentication {
-  static final FirebaseAuthentication _singleton =
-      FirebaseAuthentication._internal();
+class FirebaseAuthService {
+  static final FirebaseAuthService _singleton = FirebaseAuthService._internal();
 
-  factory FirebaseAuthentication() {
+  factory FirebaseAuthService() {
     return _singleton;
   }
 
-  FirebaseAuthentication._internal();
+  FirebaseAuthService._internal();
 
   static User? get getUser => FirebaseAuth.instance.currentUser;
 
